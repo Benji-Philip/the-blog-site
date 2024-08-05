@@ -54,7 +54,6 @@ body {
     flex: 1;
     flex-direction: column;
     justify-content: center;
-    height: 80svh;
     margin-right: 18px;
 }
 
@@ -84,8 +83,9 @@ button {
 }
 
 .about-img{
-    width: 3rem;
-    height: 3rem;
+    margin-top: 21px;
+    width: 6rem;
+    height: 6rem;
     border-radius: 100px;
     background-image: url("./lib/assets/profile.jpeg");
     background-position: center;
@@ -94,6 +94,7 @@ button {
 }
 
 .about-container {
+    margin-top: 32px;
     display: flex;
     flex-direction: column;
     padding: 18px 32px;
@@ -101,6 +102,7 @@ button {
     background-color: white;
     border-radius: 20px;
     margin-right: 21px;
+    margin-left: 21px;
 }
 
 .about-container p {
@@ -136,7 +138,7 @@ button {
 }
 
 .banner {
-    margin-left: 28px;
+    margin-left: 21px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -212,6 +214,27 @@ a:visited {
     color: rgb(89, 89, 89);
     margin-top: 12px;
     margin-right: 32px;
+}
+
+.blog-list-img{
+    height: 250px;
+    background-position: 0px 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
+#blog-one .blog-list-img{
+    background-image: url("./lib/assets/blog-1-1.webp");
+}
+#blog-two .blog-list-img{
+    background-image: url("./lib/assets/blog1-2.webp");
+}
+#blog-three .blog-list-img{
+    background-image: url("./lib/assets/blog1-3.webp");
+}
+.blog-list-item:last-of-type{
+margin-bottom: 200px;
 }
 .circular-img, .circular-img-div{
     width: 2.2em;
