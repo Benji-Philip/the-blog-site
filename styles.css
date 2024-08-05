@@ -128,7 +128,7 @@ button {
 }
 
 .banner {
-    margin-left: 21px;
+    margin-left: 0px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -182,7 +182,7 @@ a:visited {
 }
 
 .blog-list-item h1 {
-    margin: auto 6px;
+    margin: 26px 6px;
     font-size: 28px;
     font-style: oblique;
     font-weight: 700;
@@ -267,10 +267,6 @@ a:visited {
         margin-top: -10px;
     }
 
-    .banner {
-        margin-left: 0px;
-    }
-
     .about-column {
         display: none;
     }
@@ -294,7 +290,9 @@ a:visited {
     }
 }
 
-.blog-list-img,
 .about-container {
-    box-shadow: 0 4px 10px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 10px 0px rgba(0, 0, 0, 0.058);
+}
+.blog-list-img{
+    box-shadow: 0 4px 10px 0px rgba(0, 0, 0, 0.329);
 }
