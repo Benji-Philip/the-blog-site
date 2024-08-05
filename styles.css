@@ -134,22 +134,6 @@ button {
     justify-content: center;
 }
 
-@media (max-width: 950px) {
-    .banner{
-    margin-left: 0px;
-    }
-    .about-column {
-        display: none;
-    }
-
-    .home-wrapper {
-        align-items: start;
-    }
-    .content-column{
-    margin-right: auto;
-    }
-}
-
 .banner h1 {
     margin-bottom: 0px;
     font-family: 'DM Serif Display';
@@ -275,4 +259,32 @@ margin-bottom: 200px;
 }
 .c-i-three{
     background-image: url("./lib/assets/blog1-3.webp" ) ;
+}
+
+@media (max-width: 950px) {
+    .title h1{
+    font-size: 54px;
+    margin-top: -10px;
+    }
+    .banner{
+    margin-left: 0px;
+    }
+    .about-column {
+        display: none;
+    }
+
+    .home-wrapper {
+        align-items: start;
+    }
+    .content-column{
+    margin-right: auto;
+    }
+    .circular-img-div{
+        width: 1.4rem;
+        height: 1.4rem;
+    }
+    .circular-img{
+        width: 1.8rem;
+        height: 1.8rem;
+    }
 }
